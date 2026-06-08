@@ -1,0 +1,17 @@
+# ===== CORE DATA =====
+pandas
+numpy
+openpyxl
+joblib
+
+# ===== MACHINE LEARNING =====
+scikit-learn
+
+# ===== DEEP LEARNING (LSTM) =====
+tensorflow
+
+# ===== MQTT COMMUNICATION =====
+paho-mqtt
+
+# ===== OPTIONAL (kalau mau plot / debug nanti) =====
+matplotlib

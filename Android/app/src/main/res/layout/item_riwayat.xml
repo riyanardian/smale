@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card"
+    android:padding="12dp"
+    android:layout_marginBottom="10dp">
+
+    <!-- TITLE -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Judul"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="#000"/>
+
+    <!-- DETAIL -->
+    <TextView
+        android:id="@+id/tvDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail"
+        android:textSize="12sp"
+        android:layout_marginTop="6dp"
+        android:textColor="#333"/>
+
+    <!-- BUTTON HAPUS -->
+    <TextView
+        android:id="@+id/btnHapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:textStyle="bold"
+        android:textColor="#FF3B30"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"/>
+</LinearLayout>
