@@ -4,7 +4,6 @@ Android/build/
 Android/app/build/
 Android/.idea/
 Android/local.properties
-*.apk
 *.aar
 
 *.hex
