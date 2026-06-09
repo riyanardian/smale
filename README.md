@@ -46,4 +46,39 @@ Sistem ini dikembangkan sebagai **Tugas Akhir**:
 
 ---
 
-## 📁 Struktur Folder Repository
+**Gambar Alur Data**
+<img width="2789" height="1504" alt="Body Fat pdf (5)" src="https://github.com/user-attachments/assets/a159318d-aaeb-487c-9326-a75f522509c8" />
+
+**Gambar Alat**
+<img width="257" height="339" alt="image" src="https://github.com/user-attachments/assets/4a564e7c-a852-4a86-8e55-8a1566ea8252" />
+
+## 📱 Instalasi Aplikasi (APK)
+
+Aplikasi SMALE Android dapat diinstal melalui file APK yang tersedia pada repository atau melalui link QR berikut:
+
+ 🔗 Download APK
+Scan QR berikut atau buka link di bawah ini:
+
+<img width="1000" height="1000" alt="SMALE" src="https://github.com/user-attachments/assets/46b82791-c08d-41e0-983b-08c3906563bf" />
+
+📲 Cara Install APK
+
+1. Buka link QR di atas atau scan menggunakan kamera HP
+2. Download file APK SMALE
+3. Aktifkan izin instalasi dari sumber tidak dikenal:
+   - Masuk ke **Settings / Pengaturan**
+   - Pilih **Security / Keamanan**
+   - Aktifkan **Install unknown apps / Sumber tidak dikenal**
+4. Buka file APK yang sudah di-download
+5. Klik **Install**
+6. Tunggu proses instalasi selesai
+7. Jalankan aplikasi **SMALE**
+
+---
+
+## ⚠️ Catatan
+
+- Pastikan menggunakan Android minimal versi yang didukung aplikasi
+- Jika terjadi error instalasi, hapus versi lama terlebih dahulu
+- Gunakan APK dari link resmi untuk menghindari file corrupt
+
