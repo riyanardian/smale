@@ -1,19 +1,17 @@
 # SMALE (Smart Scale) - IoT & Machine Learning System
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 **SMALE (Smart Scale)** adalah sistem timbangan pintar berbasis **Internet of Things (IoT)** yang dirancang untuk memantau pertumbuhan anak dan mendukung deteksi dini risiko **stunting**. Sistem ini mengintegrasikan perangkat keras, aplikasi Android, backend server, serta **Machine Learning** untuk analisis data pertumbuhan secara real-time.
 
 Sistem ini dikembangkan sebagai **Tugas Akhir**:
 
 - **Nama** : Riyan Ardian Syah  
-- **NPM** : 5221011058  
-- **Program Studi** : Teknik Komputer  
 - **Universitas** : Universitas Teknologi Yogyakarta  
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - 📡 Pengukuran berat dan tinggi badan otomatis
 - 📊 Pengiriman data real-time menggunakan MQTT
@@ -27,7 +25,7 @@ Sistem ini dikembangkan sebagai **Tugas Akhir**:
 
 ---
 
-## 🧠 Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Hardware
 - Mappi32 (ESP32)
@@ -49,8 +47,12 @@ Sistem ini dikembangkan sebagai **Tugas Akhir**:
 **Gambar Alur Data**
 <img width="2789" height="1504" alt="Body Fat pdf (5)" src="https://github.com/user-attachments/assets/a159318d-aaeb-487c-9326-a75f522509c8" />
 
+---
+
 **Gambar Alat**
 <img width="257" height="339" alt="image" src="https://github.com/user-attachments/assets/4a564e7c-a852-4a86-8e55-8a1566ea8252" />
+
+---
 
 ## 📱 Instalasi Aplikasi (APK)
 
