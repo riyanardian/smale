@@ -50,6 +50,7 @@ Sistem ini dikembangkan sebagai **Tugas Akhir**:
 ---
 
 **Gambar Alat**
+
 <img width="257" height="339" alt="image" src="https://github.com/user-attachments/assets/4a564e7c-a852-4a86-8e55-8a1566ea8252" />
 
 ---
