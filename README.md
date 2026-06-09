@@ -85,3 +85,58 @@ Scan QR berikut atau buka link di bawah ini:
 - Jika terjadi error instalasi, hapus versi lama terlebih dahulu
 - Gunakan APK dari link resmi untuk menghindari file corrupt
 
+
+---
+
+### 📌 Penjelasan Detail Struktur Sistem
+
+#### 📱 Android/
+Folder ini berisi source code aplikasi mobile Android yang digunakan untuk:
+- Menampilkan data hasil pengukuran berat dan tinggi badan
+- Monitoring pertumbuhan anak secara real-time
+- Menampilkan hasil analisis dari sistem Machine Learning
+- Komunikasi dengan backend server melalui API
+
+#### ⚙️ Arduino_IDE/
+Folder ini berisi program untuk mikrokontroler ESP32 (Mappi32), yang berfungsi untuk:
+- Membaca data dari sensor Load Cell (berat badan)
+- Membaca data dari sensor Ultrasonik (tinggi badan)
+- Mengirim data sensor ke server menggunakan MQTT
+- Mengelola komunikasi IoT secara real-time
+
+#### 📦 Build_APK/
+Folder ini berisi file APK hasil build dari aplikasi Android:
+- File ini dapat langsung di-install di perangkat Android
+- Digunakan untuk testing atau distribusi aplikasi
+
+#### 🖥️ Server/
+Folder ini merupakan inti sistem backend yang berfungsi untuk:
+- Menerima data dari ESP32 melalui MQTT atau REST API
+- Menyimpan data ke database MySQL
+- Mengolah data menggunakan Machine Learning (Random Forest & LSTM)
+- Menyediakan API untuk aplikasi Android
+- Mengatur komunikasi antar sistem IoT
+
+#### 🌐 index.html
+File ini merupakan web monitoring sederhana yang berfungsi untuk:
+- Menampilkan data pengukuran secara langsung
+- Visualisasi data pertumbuhan anak
+- Alternatif tampilan selain aplikasi Android
+
+#### ⚙️ .gitignore
+File ini digunakan untuk:
+- Mengabaikan file yang tidak perlu di-upload ke GitHub
+- Menjaga repository tetap bersih dan ringan
+- Contoh: file build, cache, atau file sistem
+
+## 🔄 Alur Data Sistem
+
+Sensor → ESP32 → MQTT → Backend Server → MySQL → Machine Learning → Android & Web
+
+
+## 📌 Catatan
+
+Struktur ini dibuat untuk mendukung sistem SMALE sebagai:
+- Sistem IoT monitoring pertumbuhan anak
+- Integrasi Machine Learning untuk deteksi stunting
+- Sistem data real-time berbasis cloud
